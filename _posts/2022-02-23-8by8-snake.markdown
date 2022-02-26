@@ -4,7 +4,7 @@ title: "Snake game on 8x8 LED matrix using the STM32F4 discovery board."
 date: 2022-02-23 16:21:10 +0100
 categories: jekyll update
 ---
-In this post we will be implementing a snake game on bare metal. This means we will only use assembly and registers, without any fancy tools such as the CUBEMX :)
+In this post we will be implementing a [snake game on bare metal](https://github.com/zrezke/8by8snake). This means we will only use assembly and registers, without any fancy tools such as the CUBEMX :)  
 
 <div style="text-align:center;">
 <img src="/assets/img/full_game.gif" alt="Game example"/>
@@ -21,6 +21,7 @@ In this post we will be implementing a snake game on bare metal. This means we w
 ## Lets start
 
 As a starting point we are going to take [this](https://github.com/zrezke/8by8snake-template) repository which is basically a modified version of the [stm32f4 assembly template](https://github.com/fcayci/stm32f4-assembly) by [fcayci](https://github.com/fcayci) to get assembly up and running on the stm32. As I am not going to explain how to find register addresses in this tutorial, the assembly template has all the address constants predefined for us.  
+**We are going to write all of our code in `src/main.s`**  
 
 Clone the repository:
 
@@ -39,6 +40,9 @@ you should see 4 LED-s light up on your device!
 ![LEDs lit up](/assets/img/leds_on.jpg)
 
 If this is not working you might not have tools such as `make` installed on your machine... Take a look at [https://github.com/fcayci/stm32f4-assembly#option-2---custom-development-environment](https://github.com/fcayci/stm32f4-assembly#option-2---custom-development-environment) and install the necessary tools!
+
+### The template
+
 
 ## Communicating with the matrix
 
