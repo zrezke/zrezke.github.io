@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Snake game on 8x8 LED matrix using the STM32F4 discovery board."
+author: Filip Jeretina
 date: 2022-02-23 16:21:10 +0100
 categories: jekyll update
 ---
