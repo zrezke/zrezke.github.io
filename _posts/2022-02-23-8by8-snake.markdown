@@ -181,7 +181,6 @@ As I said, we will configure STM32 SPI in **master, transmit only mode with soft
 
 ## SPI_CR1 configuration:
 
-- Enable SPI1 clock in RCC_APB2ENR register
 - Configure SPI in master mode:
   - Set `MSTR` = 1
 - Configure SPI in transmit only mode
