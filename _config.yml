@@ -33,7 +33,7 @@ plugins:
   - jekyll-target-blank
 
 disqus:
-  shortname: zrezke.github.io
+  shortname: zrezke-github-io
 
 # Exclude from processing.
 # The following items will not be processed, by default.
