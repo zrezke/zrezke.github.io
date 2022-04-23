@@ -1,0 +1,138 @@
+#address {
+  display: none;
+}
+
+#webaddress {
+  position: relative;
+  color: #aaa;
+  font-family: Menlo, monospace, sans-serif;
+  font-size: 80%;
+  top: -1.7em;
+  /* margin-left: 10em; */
+  align-content: flex-start;
+}
+
+#webaddress a {
+  text-decoration: none;
+}
+.cv {
+  position: relative;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  justify-content: space-between;
+}
+
+.title {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50%;
+}
+.title h1 + p {
+  position: relative;
+  /* left: -1.6em; */
+  font-style: italic;
+  font-size: 110%;
+  top: -0.9em;
+  align-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    padding-left: 10vw;
+  }
+}
+
+.point {
+  width: 100%;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.cv h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  font-family: Cousine, Verdana, sans-serif;
+}
+
+.point .subtitle {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex: 0 0 50%;
+}
+
+.point .subtitle h2 {
+  flex: 0 0 70%;
+  /* left: -25%; */
+  font-size: 1.1em;
+  color: #a00;
+  position: relative;
+  text-align: right;
+  align-self: flex-start;
+}
+
+.point code {
+  font: normal normal;
+  font-size: 70%;
+  font-family: Menlo, monospace, sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #aaa;
+  position: relative;
+  left: -10rem;
+  top: 2em;
+}
+
+.point ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-top: 3em;
+  align-self: flex-start;
+  flex: 0 0 50%;
+}
+.point ul li {
+  padding-right: 2em;
+  text-align: start;
+  list-style: none;
+}
+.point ul li ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  width: 100%;
+}
+
+.point li ul li {
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+}
+.point li:before {
+  content: "-";
+  position: relative;
+  left: -0.25em;
+}
+
+.cv .title a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.cv ul li a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.cv a:hover {
+  color: #39f;
+}
