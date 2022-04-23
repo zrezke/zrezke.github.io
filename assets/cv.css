@@ -52,6 +52,7 @@
   flex-direction: row;
   align-self: center;
   justify-content: space-between;
+  margin-top: 0.5em;
 }
 
 .cv h1,
@@ -70,7 +71,7 @@ h4 {
 }
 
 .point .subtitle h2 {
-  flex: 0 0 70%;
+  flex: 0 0 80%;
   /* left: -25%; */
   font-size: 1.1em;
   color: #a00;
